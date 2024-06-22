@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <header>
+        <h1>Tabelas</h1>
+        <nav> <!-- usado para criar menu de navegação -->
+            <a href="./index.html">Home</a>
+        </nav>
+        <br />
+    </header>
+    <table> <!-- cria uma tabela -->
+        <caption>Notas em matemática</caption> <!-- adiciona a legenda da tabela -->
+        <thead> <!-- cabeçalho da tabela -->
+            <tr> <!-- cria uma linha da tabela -->
+                <th>Nome do aluno</th> <!-- cria uma coluna no cabeçalho -->
+                <th>Sala</th>
+                <th>Nota do aluno</th>
+            </tr>
+        </thead>
+        <tbody> <!-- corpo da tabela -->
+            <tr>
+                <td>Aluno A</td> <!-- cria uma coluna na tabela -->
+                <td>Sala 10</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Aluno B</td>
+                <td>Sala 10</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- rodapé da tabela -->
+            <tr>
+                <!-- O colspan nesse caso faz com que a coluna ocupe 2 espaços -->
+                <td colspan="2">Média</td>
+                <td>7,5</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br />
+    <footer> <!-- define o rodapé -->
+        &copy; 2024 - Todos os direitos reservados
+    </footer>
+</body>
+</html>
